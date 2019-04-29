@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/fav"
+            android:title="@string/favourites_term" />
+
+        <item
+            android:id="@+id/nav_saved"
+            android:icon="@drawable/checked"
+            android:title="@string/saved_terms" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/refresh"
+            android:title="@string/last_searchs" />
+    </group>
+
+    <item android:title="@string/other_menu">
+        <menu>
+            <group android:checkableBehavior="none" >
+
+            <item
+                android:id="@+id/nav_destekol"
+                android:title="@string/rate_us"
+                android:icon="@drawable/customer"
+                />
+
+                <item
+                    android:id="@+id/nav_email"
+                    android:title="@string/email"
+                    android:icon="@drawable/email"
+                    />
+
+                <item
+                    android:id="@+id/nav_ayarlar"
+                    android:icon="@drawable/settings"
+                    android:title="@string/settings" />
+                <item
+                    android:id="@+id/nav_hakkinda"
+                    android:icon="@drawable/info"
+                    android:title="@string/about" />
+
+
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

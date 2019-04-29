@@ -1,0 +1,18 @@
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\Object Tracking Csharp.exe.config
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\Object Tracking Csharp.exe
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\Object Tracking Csharp.pdb
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\AForge.Math.dll
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\AForge.xml
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\AForge.Imaging.xml
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\AForge.Video.xml
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\bin\Debug\AForge.Math.xml
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\obj\Debug\Object Tracking Csharp.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\obj\Debug\Object_Tracking_Csharp.Form1.resources
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\obj\Debug\Object_Tracking_Csharp.Properties.Resources.resources
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\obj\Debug\Object Tracking Csharp.csproj.GenerateResource.Cache
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\obj\Debug\Object Tracking Csharp.exe
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Nesne Takibi Arduino\Nesne Takibi Arduino\obj\Debug\Object Tracking Csharp.pdb
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Object Tracking Csharp\Object Tracking Csharp\bin\Debug\Object Tracking Csharp.exe.config
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Object Tracking Csharp\Object Tracking Csharp\obj\Debug\Object Tracking Csharp.exe
+C:\Users\Gamer\Desktop\My Github Projects\C#\C# - Arduino Nesne Takibi Seri Haberleşme\Object Tracking Csharp\Object Tracking Csharp\obj\Debug\Object Tracking Csharp.pdb

@@ -1,0 +1,219 @@
+<resources>
+
+
+    // UpdateReceiver Strings
+    //
+
+    // Language Strings
+    <string name="lan_set_tr">Varsayılan dil Türkçe olarak ayarlandı</string>
+    <string name="lan_set_en">Default language is set to English</string>
+    //
+
+
+    // Objects Strings
+    // Description Strings
+    <string name="term">Term</string>
+    <string name="description">Description :</string>
+    <string name="add_fav">Add to Favourites</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy</string>
+    <string name="developers">Developers</string>
+    //
+
+    // Save new term Strings
+    <string name="enter_term">Enter the term</string>
+    <string name="enter_desc">Enter the description</string>
+    <string name="save_term_button">Save the Term</string>
+    //
+
+    // Nav_Header_Main Strings
+    <string name="copyright">Copyright © Adil AYTAN</string>
+    //
+
+
+    //
+
+    // Title Strings
+    <string name="description_layout">Description</string>
+    <string name="add_term_layout">Add new term</string>
+    <string name="about_layout">About the app</string>
+    //
+
+    // Menu Strings
+
+    // Main Menu Strings
+    <string name="search_title">Search</string>
+    //
+
+    // Fav Menu Strings
+
+    //
+
+    // Nav Menu Strings
+    <string name="last_searchs">Last Searches</string>
+    <string name="favourites_term">Favourites</string>
+    <string name="saved_terms">Saved Terms</string>
+    <string name="sub_words">Sub Words</string>
+    <string name="other_menu">Other</string>
+    <string name="about">About</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="settings">Settings</string>
+    //
+
+
+    // Arrays Strings
+    // Language Arrays
+    <string name="lan_tur">Turkish</string>
+    <string name="lan_en">English</string>
+    //
+
+
+    // Theme Arrays
+
+    //
+    //
+
+    //
+
+    // Settings Strings
+
+    <string name="check_update">Check Updates</string>
+    <string name="check_update_description">It checks for update and informs about new version.</string>
+    <string name="language">Language</string>
+    <string name="language_description">It determines the language which you will use in program</string>
+    <string name="font_size">Font Size</string>
+    <string name="font_size_description">It determines font size of the program</string>
+    <string name="theme">Theme</string>
+    <string name="theme_description">It makes changes on surface of program</string>
+    <string name="reset_database">Reset Database</string>
+    <string name="reset_database_description">It resets database</string>
+    /string name="changing_theme">Tema değişikliğiniz uygulamaya bir sonraki girişinizde aktif olacaktır>/
+    //
+
+
+    // Search-View Strings
+    <string name="search_hint">Please, enter the term which will be searched...</string>
+    //
+
+    // Other Strings
+    <string name="app_name">Medical Dictionary Pro</string>
+    //
+
+
+    // Fav Term Strings
+    <string name="deletefav">Are you sure to want to remove the term from favourites ?</string>
+    <string name="deletedfavterm">The term is removed from favourites : </string>
+    //
+
+    // Saved Words Strings
+    <string name="deletesaveterm">Are you sure to want to remove the saved term ?</string>
+    <string name="deletedsaveterm">The term is removed : </string>
+    //
+
+
+    // Word Strings
+    <string name="term_name">Term Name : </string>
+    <string name="copied_clipboard">The term is copied to clipboard</string>
+    <string name="share_term">Share the term</string>
+    <string name="addedfav">The term is added to favourites : </string>
+    //
+
+
+    // Save Word Strings
+    <string name="fill_need">Please , fill the needed fields...</string>
+    <string name="added_term_success">The term is added successfully : </string>
+    <string name="term_exist">The term already exists : </string>
+    //
+
+    // Main Activity Strings
+    <string name="welcome">Welcome !</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="add_term">Do you want to add this term ?</string>
+    <string name="finding_term">The term which you searched is not found !</string>
+    //
+
+    // Last Search Strings
+    <string name="delete_last">Are you sure to want to remove this term from last searches ?</string>
+    <string name="deleted_last_search">The term has been removed from last searches : </string>
+    //
+
+
+
+    // General String
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    //
+
+
+    //Theme Name Strings
+    <string name="default_thm">Default Theme</string>
+    <string name="default_black">Black Theme</string>
+    <string name="default_red">Red Theme</string>
+    <string name="default_pink">Pink Theme</string>
+
+    // İntro
+    <string name="intro1_slogan">Reach the term you\'re looking up via favourites and search history.</string>
+    <string name="intro2_slogan">Make a comprehensive search by the features of term search,sub-term search and content search.</string>
+    <string name="intro3_slogan">Many features such as Share,Copy and Add Term.</string>
+
+    <string name="program_slogan">Ready to have good grasp of medicine terminology more easily than ever ?</string>
+
+    /// About Text
+
+
+
+    //Font size Strings
+    <string name="font_small">Small</string>
+    <string name="font_normal">Normal</string>
+    <string name="font_large">Large</string>
+    <string name="favterm_exists">The term have already added to the favourites !</string>
+    <string name="changing_theme">Your new theme is activated</string>
+    <string name="default_green">Green Theme</string>
+    <string name="search_content">Content Search</string>
+    <string name="search_expand">Sub Term Search</string>
+    <string name="search_word">Term Search</string>
+    <string name="update_exist">New Update Avaible</string>
+    <string name="reseted_database">The databases which you choose are resetted successfully</string>
+    <string name="non_reseted_database">The databases are not resetted</string>
+    <string name="for_exit">Please press back key again to exit...</string>
+    <string name="intro_next"><![CDATA[>]]></string>
+    <string name="intro_proceed">PROCEED</string>
+    <string name="skipping">Do you want to skip the show ?</string>
+    <string name="discover_dict">Discover Dictionary</string>
+    <string name="skip_show"><![CDATA[Skip the show >]]></string>
+    <string name="intro_back">Skip</string>
+
+    // Settings Strings
+
+
+    <string name="version">Version : v1.1</string>
+    <string name="about_developer">About the Developer</string>
+    <string name="fav_404">Favourite Term Not Found !</string>
+    <string name="sub_term_404">Sub term not found !</string>
+    <string name="term_404">The term not found !</string>
+    <string name="last_search_404">Last Searches Not Found !</string>
+    <string name="savedterm_404">Saved Term Not Found !</string>
+    <string name="content_404">The content not found !</string>
+    <string name="about_text">You don\'t necessarily have to have internet connection to reach our terminology database.Our database consists of 26.796 terms and 11.748 sub-terms.  Thanks to our search bar, you can easily reach the term you\'re looking up. There are many features such as Add to favourites, add term, search history.\nCredits :\n Coding : Adil AYTAN \n Thanks to  Mehmet Can ÇAPKAN and for Cihan ÜNLÜ their support</string>
+    <string name="not_yet_search_content">Not Searched Yet !</string>
+    <string name="comp_search">Comprehensive Search</string>
+    <string name="easily_reach">Easily Reach</string>
+    <string name="many_features">Many Features</string>
+    <string name="db_fail">Database Error</string>
+    <string name="pref_fail">Runtime Error</string>
+    <string name="pref_fail_text">Error was occured while settings were  loading.Settings will be resetted...</string>
+    <string name="sub_activity">Sub Terms</string>
+    <string name="sub_activity_title">- Sub Terms</string>
+
+
+    <string name="banner_ad_unit">ca-app-pub-8845984264352916/3548222382</string>
+    <string name="inter_ad_unit">ca-app-pub-8845984264352916/9161960387</string>
+    <string name="email">Feedback</string>
+    <string name="content_mail">Please write your message</string>
+    <string name="subject_email">Feedback - Medical Dictionary</string>
+    <string name="deleted_all">All terms was deleted.</string>
+
+</resources>

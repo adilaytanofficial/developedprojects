@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c93af</color>
+    <color  name="accent">#4c93af</color>
+    <color name="arkaplan">#8DC5DC</color>
+    
+    <color name="intro_2">#32e322</color>
+    <color name="intro_3">#313131</color>
+    
+    
+    <array name="intro_colors">
+        <item>@color/arkaplan</item>
+        <item>@color/intro_2</item>
+        <item>@color/intro_3</item>
+    </array>
+
+    <color name="yesil_color">#17a644</color>
+    <color name="def_color">#4c93af</color>
+    <color name="kirmizi_color">#601010</color>
+    <color name="siyah_color">#1c1c1c</color>
+    <color name="pembe_color">#FF82AB</color>
+
+
+    <color name="colorRipple">#A9A9F5</color>
+
+
+</resources>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adilaytan.medicaldictionarypro">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.TheOthers.Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adilaytan.medicaldictionarypro.TermsProcess.TermDescription"
+            android:label="@string/description_layout"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.termsprocess.TERMDESCRIPTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.LeftMenu.LastSearches"
+            android:label="@string/last_searchs"
+            android:parentActivityName="com.adilaytan.medicaldictionarypro.MainActivity">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.leftmenu.LASTSEARCHES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.SubRecycler.SubActivity"
+            android:parentActivityName="com.adilaytan.medicaldictionarypro.MainActivity">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.subrecycler.SUBACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.LeftMenu.SavedTerm"
+            android:label="@string/saved_terms"
+            android:parentActivityName="com.adilaytan.medicaldictionarypro.MainActivity">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.leftmenu.SAVEDTERM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adilaytan.medicaldictionarypro.LeftMenu.Favs"
+            android:label="@string/favourites_term"
+            android:noHistory="true"
+            android:parentActivityName="com.adilaytan.medicaldictionarypro.MainActivity">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.leftmenu.FAVS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.Settings.SettingsScreen"
+            android:label="@string/settings"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="com.adilaytan.medicaldictionarypro.MainActivity">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.settings.SETTINGSSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.TheOthers.AboutUS"
+            android:label="@string/about_layout"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="com.adilaytan.medicaldictionarypro.MainActivity">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.theothers.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.Intro.IntroSkip"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory = "true"
+            >
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.intro.INTROSKIP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.TermsProcess.SaveTerm"
+            android:label="@string/add_term_layout"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="com.adilaytan.medicaldictionarypro.MainActivity">
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.termsprocess.SAVETERM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.adilaytan.medicaldictionarypro.Intro.IntroScreen"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory = "true"
+            >
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.intro.INTROSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name="com.adilaytan.medicaldictionarypro.MainActivity"
+            android:label="@string/search_word"
+            android:theme="@style/AppTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            >
+            <intent-filter>
+                <action android:name="com.adilaytan.medicaldictionarypro.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"
+                android:value=".MainActivity"
+                />
+        </activity>
+
+    </application>
+
+</manifest>

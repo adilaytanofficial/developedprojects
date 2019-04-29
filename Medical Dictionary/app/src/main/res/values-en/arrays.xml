@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="languagelist">
+        <item>@string/lan_tur</item>
+        <item>@string/lan_en</item>
+    </string-array>
+
+    <string-array name="languagevalue">
+        <item>tr</item>
+        <item>en</item>
+    </string-array>
+
+
+    <string-array name="fontsizelist">
+        <item>@string/font_small</item>
+        <item>@string/font_normal</item>
+        <item>@string/font_large</item>
+    </string-array>
+
+    <string-array name="fontsizevalue">
+        <item>?android:attr/textAppearance</item>
+        <item>?android:attr/textAppearanceMedium</item>
+        <item>?android:attr/textAppearanceLarge</item>
+    </string-array>
+
+    <string-array name="themelist">
+        <item>@string/default_thm</item>
+        <item>@string/default_green</item>
+        <item>@string/default_black</item>
+        <item>@string/default_red</item>
+        <item>@string/default_pink</item>
+    </string-array>
+
+    <string-array name="themevalue">
+        <item>2131361933</item>
+        <item>2131362063</item>
+        <item>2131361981</item>
+        <item>2131362065</item>
+        <item>2131361983</item>
+    </string-array>
+
+
+</resources>

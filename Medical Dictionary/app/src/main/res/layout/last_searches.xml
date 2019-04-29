@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorAccent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/last_ana_layout"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/last_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="#eeeeee"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sonaranan_listview"
+            android:layout_gravity="center_horizontal"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp"
+            android:padding="8dp"
+            android:background="?colorAccent"
+            android:scrollbars="horizontal"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/last_search_404"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/content_404"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/refresh"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_404"
+            android:text="@string/last_search_404"
+            android:textSize="12pt"
+            android:layout_centerInParent="true"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

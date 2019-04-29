@@ -1,0 +1,217 @@
+<resources>
+
+
+    // UpdateReceiver Strings
+    <string name="update_exist">Yeni Güncelleme Var</string>
+    //
+
+    // Language Strings
+    <string name="lan_set_tr">Varsayılan dil Türkçe olarak ayarlandı</string>
+    <string name="lan_set_en">Default language is set to English</string>
+    //
+
+
+    // Objects Strings
+    // Description Strings
+    <string name="term">Terim</string>
+    <string name="description">Açıklama :</string>
+    <string name="add_fav">Favorilere Ekle</string>
+    <string name="share">Paylaş</string>
+    <string name="copy">Kopyala</string>
+    <string name="developers">Hazırlayanlar</string>
+    //
+
+    // Save new term Strings
+    <string name="enter_term">Terimi giriniz</string>
+    <string name="enter_desc">Açıklamayı giriniz</string>
+    <string name="save_term_button">Terimi Kaydet</string>
+    //
+
+    // Nav_Header_Main Strings
+    <string name="copyright">Telif Hakkı © Adil AYTAN</string>
+    //
+
+
+    //
+
+    // Title Strings
+    <string name="description_layout">Açıklama</string>
+    <string name="add_term_layout">Terim Ekle</string>
+    <string name="about_layout">Uygulama Hakkında</string>
+    //
+
+    // Menu Strings
+
+    // Main Menu Strings
+    <string name="search_title">Arama</string>
+    //
+
+
+    // Nav Menu Strings
+    <string name="last_searchs">Son arananlar</string>
+    <string name="favourites_term">Favoriler</string>
+    <string name="saved_terms">Kaydedilen Terimler</string>
+    <string name="sub_words">Alt Kelimeler</string>
+    <string name="other_menu">Diğer</string>
+    <string name="about">Hakkında</string>
+    <string name="rate_us">Bize destek olun</string>
+    <string name="settings">Ayarlar</string>
+    //
+
+
+    // Arrays Strings
+
+    // Language Arrays
+    <string name="lan_tur">Türkçe</string>
+    <string name="lan_en">İngilizce</string>
+
+    // Settings Strings
+
+
+    <string name="check_update">Güncellemeleri Kontrol Et</string>
+    <string name="check_update_description">Program güncellemelerini kontrol edip , kullanıcıyı bilgilendirir. \n</string>
+    <string name="language">Arayüz Dili</string>
+    <string name="language_description">Programın hangi dilde kullanıcağınızı belirler</string>
+    <string name="font_size">Yazı Tipi Boyutu</string>
+    <string name="font_size_description">Programın yazı tipi boyutunu belirler</string>
+    <string name="theme">Tema</string>
+    <string name="theme_description">Programın arayüzünde değişiklik yapar</string>
+    <string name="reset_database">Veritabanını Sıfırla</string>
+    <string name="reset_database_description">Veritabanındaki kayıtları sıfırlar</string>
+
+    <string name="changing_theme">Tema değişikliğiniz başarıyla uygulanmıştır</string>
+    <string name="reseted_database">Seçtiğiniz veritabanları başarıyla sıfırlanmıştır...</string>
+    //
+
+
+    // Search-View Strings
+    <string name="search_hint">Lütfen aranacak terimi giriniz...</string>
+    <string name="term_name">Terim Ismi : </string>
+    //
+
+    // Other Strings
+    <string name="app_name">Tıp Sözlüğü Pro</string>
+    //
+
+
+    // Fav Term Strings
+    <string name="deletefav">Terimi favorilerden silmek istediğinize emin misiniz ?</string>
+    <string name="deletedfavterm">Terim favorilerden silinmiştir : </string>
+    <string name="favterm_exists">Terim zaten favorilere eklenmiştir !</string>
+    //
+
+    // Saved Words Strings
+    <string name="deletesaveterm">Kaydedilmiş terimi silmek istediğinize emin misiniz ?</string>
+    <string name="deletedsaveterm">Terim silinmiştir : </string>
+    //
+
+
+    // Word Strings
+    <string name="copied_clipboard">Terim panoya kopyalandı</string>
+    <string name="share_term">Terim Paylaş</string>
+    <string name="addedfav">Terim favorilere eklendi : </string>
+    //
+
+
+    // Save Word Strings
+    <string name="fill_need">Lütfen gerekli alanları doldurunuz...</string>
+    <string name="added_term_success">Terim başarıyla eklenmiştir : </string>
+    <string name="term_exist">Terim zaten var : </string>
+    //
+
+    // Main Activity Strings
+    <string name="welcome">Hoşgeldiniz !</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="add_term">Bu terimi eklemek ister misiniz ?</string>
+    <string name="finding_term">Aradığınız terim bulunamamıştır !</string>
+
+    //
+
+    // Last Search Strings
+    <string name="delete_last">Bu terimi son arananlardan silmek istediğinize emin misiniz ?</string>
+    <string name="deleted_last_search">Terim sonarananlardan silinmiştir : </string>
+    //
+
+
+
+    // General String
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="cancel">Iptal</string>
+    <string name="reset">Sıfırla</string>
+    //
+
+    //Theme Name Strings
+    <string name="default_thm">Varsayılan Tema</string>
+    <string name="default_green">Yeşil Tema</string>
+    <string name="default_pink">Pembe Tema</string>
+    <string name="default_red">Kırmızı Tema</string>
+    <string name="default_black">Siyah Tema</string>
+
+    //Font size Strings
+    <string name="font_small">Küçük</string>
+    <string name="font_normal">Normal</string>
+    <string name="font_large">Büyük</string>
+
+    <string name="search_expand">Alt Terim Arama</string>
+    <string name="search_word">Terim Arama</string>
+    <string name="search_content">İçerik Arama</string>
+
+    <string name="for_exit">Çıkmak için lütfen tekrar geri tuşuna basınız...</string>
+
+
+    //o Strings
+
+    <string name="skipping">Tanıtım aşamasını geçmek istediğinize emin misiniz ?</string>
+    <string name="intro_next"><![CDATA[>]]></string>
+    <string name="intro_proceed">Devam Et</string>
+
+
+    // İntro Slogans
+    <string name="intro1_slogan">Favoriler ve Son arananlar ile istediğiniz terime hızlı bir şekilde erişin...</string>
+    <string name="intro2_slogan">Terim Arama , Alt-Terim Arama ve İçerik Arama ile kapsamlı şekilde arama yapın...</string>
+    <string name="intro3_slogan">Paylaş,Kopyala ve Terim Ekle gibi birçok özellik...</string>
+
+    // Hakkında Metni
+    <string name="about_text">Uygulamanın kullanımı için internet bağlantısı gerekmez.26.796 adet terim ve 11.748 adet alt terim bulunmaktadır.Hızlı arama seçeneği ile aradığınız
+        terime kolayca ulaşabilirsiniz.Favorilere ekle,Terim ekleme ve Son arananlar gibi
+        bir çok ekstra özellik mevcuttur.
+        \nHazırlayanlar\n Kodlama : Adil AYTAN \n Katkılarından dolayı Mehmet Can ÇAPKAN \'a ve Cihan ÜNLÜ\'e teşekkür ederiz.
+
+    </string>
+    <string name="discover_dict">Sözlüğü Keşfet</string>
+    <string name="skip_show"><![CDATA[Tanıtım aşamasını geç >]]></string>
+    <string name="program_slogan">Tıp terimlerine kolaylıkla hakim olmaya hazır mısın ?</string>
+    <string name="intro_back">ATLA</string>
+
+
+    <string name="non_reseted_database">Veritabanları sıfırlanmadı</string>
+
+    <string name="version">Sürüm : v1.1</string>
+    <string name="fav_404">Favouri Terim Bulunamadı !</string>
+    <string name="savedterm_404">Kaydedilen Terim Bulunamadı !</string>
+    <string name="last_search_404">Son Aranan Bulunamadı !</string>
+    <string name="about_developer">Geliştirici Hakkında</string>
+    <string name="term_404">Terim bulunamadı !</string>
+    <string name="sub_term_404">Alt kelime bulunamadı !</string>
+    <string name="content_404">İçerik bulunamadı !</string>
+    <string name="not_yet_search_content">Henüz İçerik Aranmadı !</string>
+    <string name="easily_reach">Hızlı Erişim</string>
+    <string name="comp_search">Kapsamlı Arama</string>
+    <string name="many_features">Ekstra Özellikler</string>
+    <string name="sub_activity">Alt Terimler</string>
+    <string name="db_fail">Veritabanı Hatası</string>
+    <string name="pref_fail">Çalışma Hatası</string>
+    <string name="pref_fail_text">Uygulama ayarları yüklenirken sorun oluştu.Ayarlar Sıfırlanacaktır...</string>
+
+
+    <string name="sub_activity_title">- Alt Terimler</string>
+
+    <string name="banner_ad_unit">ca-app-pub-8845984264352916/3548222382</string>
+    <string name="inter_ad_unit">ca-app-pub-8845984264352916/9161960387</string>
+    <string name="subject_email">İstek / Öneri / Şikayet - Tıp Sözlüğü</string>
+    <string name="content_mail">Mesajınızı yazınız</string>
+    <string name="email">Görüşlerinizi yazın</string>
+    <string name="deleted_all">Tüm terimler silinmiştir.</string>
+</resources>
