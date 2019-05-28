@@ -2,7 +2,6 @@ Project Name: Arduino Send Sensor Data to Cloud Database
 
 Description: This project allows to send sensor's data to cloud database with date.
 Firstly, you need to these materials:
-
 	1-) Cloud Server
 	2-) Mysql Database
 	3-) Arduino UNO Rev3

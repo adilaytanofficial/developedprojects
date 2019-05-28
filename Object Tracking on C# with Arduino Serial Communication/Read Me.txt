@@ -6,7 +6,6 @@ its location determined, and rectangle drawen in the screen.There are 9 area in 
 object's area on the screen, the relevant led is turned on by arduino(serial communication).
 
 Needed materials:
-
 		1-) Laptop or PC
 		2-) Camera (if you have laptop, you don't need it)
 		3-) You have need 9 LED
