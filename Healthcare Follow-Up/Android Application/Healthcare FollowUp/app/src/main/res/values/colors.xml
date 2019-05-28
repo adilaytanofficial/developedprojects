@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2cd0d8</color>
+    <color name="colorPrimaryDark">#29BFC7</color>
+    <color name="colorAccent">#ffffff</color> //FF4081 default // FF3030 // CCE1DE
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="yesil">#ebf9f9</color>
+</resources>

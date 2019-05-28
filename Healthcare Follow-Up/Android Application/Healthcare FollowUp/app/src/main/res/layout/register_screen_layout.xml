@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3DC0C7">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_form_rounded"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#ddebeb"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_alignStart="@+id/relativeLayout1">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Form"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_form_rounded"
+        android:backgroundTint="#ddebeb"
+        android:id="@+id/relativeLayout1"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Nickname"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Name"
+                android:textSize="20dp"
+                 />
+
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Surname"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Age"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                 />
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Gender"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="20dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_rounded"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
