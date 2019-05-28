@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/users"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_pulse"
+        android:enabled="true"
+        android:icon="@drawable/pulse"
+        android:title="@string/pulse"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ecg"
+        android:enabled="true"
+        android:icon="@drawable/ecg"
+        android:title="@string/ecg"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_oxygen"
+        android:enabled="true"
+        android:icon="@drawable/spo2"
+        android:title="@string/spo2"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

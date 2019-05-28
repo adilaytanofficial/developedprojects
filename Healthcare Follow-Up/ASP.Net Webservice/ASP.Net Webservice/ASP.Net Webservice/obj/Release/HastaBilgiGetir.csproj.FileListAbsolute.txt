@@ -1,0 +1,8 @@
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\bin\HastaBilgiGetir.dll.config
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\bin\HastaBilgiGetir.dll
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\bin\HastaBilgiGetir.pdb
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\bin\Newtonsoft.Json.dll
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\bin\Newtonsoft.Json.xml
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\obj\Release\HastaBilgiGetir.csprojResolveAssemblyReference.cache
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\obj\Release\HastaBilgiGetir.dll
+F:\Projeler\Bitirme Tezi\webservis\HastaBilgiGetir\HastaBilgiGetir\obj\Release\HastaBilgiGetir.pdb
