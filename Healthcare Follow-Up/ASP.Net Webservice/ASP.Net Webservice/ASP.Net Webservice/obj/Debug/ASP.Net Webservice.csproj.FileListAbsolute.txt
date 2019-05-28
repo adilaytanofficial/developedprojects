@@ -1,0 +1,8 @@
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\bin\HastaBilgiGetir.dll.config
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\bin\HastaBilgiGetir.dll
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\bin\HastaBilgiGetir.pdb
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\bin\Newtonsoft.Json.xml
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\obj\Debug\ASP.Net Webservice.csprojResolveAssemblyReference.cache
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\obj\Debug\HastaBilgiGetir.dll
+C:\Users\Gamer\Documents\GitHub\developedprojects\Health Follow-Up\ASP.Net Webservice\ASP.Net Webservice\ASP.Net Webservice\obj\Debug\HastaBilgiGetir.pdb

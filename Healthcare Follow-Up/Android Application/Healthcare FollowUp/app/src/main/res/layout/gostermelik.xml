@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:28"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="78"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:27"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:26"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="76"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:25"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="82"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:24"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="81"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:23"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="83"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:22"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="85"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/bg_form_rounded"
+            android:layout_marginTop="8dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/pic_pulse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/heart1"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/static_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulse"
+                android:textSize="10pt"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/pu_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/static_pulse"
+                android:layout_toRightOf="@+id/pic_pulse"
+                android:layout_marginLeft="5dp"
+                android:text="01/10 18:21"
+                />
+
+            <TextView
+                android:id="@+id/pu_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="84"
+                android:textSize="16pt"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/static_ratio"
+                />
+            <TextView
+                android:id="@+id/static_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:layout_centerInParent="true"
+                android:textSize="6pt"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Healthcare Follow-Up</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="title_activity_login_screen">Sign in</string>
+    <string name="slogan">Access to your health info \nwith only one single click.</string>
+    <string name="splash_title">Healthcare Follow-Up v1.0</string>
+    <string name="login_btn_text">Login</string>
+    <string name="register_btn_text">Register</string>
+    <string name="user_type">User Type</string>
+    <string name="person_type">Person</string>
+    <string name="doctor_type">Doctor</string>
+    <string name="prompt_password">Password</string>
+    <string name="pp_name">Name \n Tom Jhonson</string>
+    <string name="pp_age">Age \n 22</string>
+    <string name="pp_gender">Gender \n Male</string>
+    <string name="ecg">ECG</string>
+    <string name="temp">Body Temperature</string>
+    <string name="spo2">SpO2</string>
+    <string name="pulse">Pulse</string>
+    <string name="pp_graph"><![CDATA[Show the graph >]]></string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="profile">Profile</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+</resources>
